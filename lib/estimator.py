@@ -11,8 +11,9 @@ class BinaryLogisticRegression:
     def close(self):
         self.sess.close()
 
-    def fit(self, train_X, train_y, learning_rate=3, training_epochs=200,
+    def fit(self, train_X, train_y, learning_rate=3, training_epochs=5000,
             batch_size=300, report_step=float('inf'), lamda=0.0):
+        train_y.shape = (train_y.size, 1)
         m, n = train_X.shape
         X = tf.placeholder(tf.float32, [None, n])
         y = tf.placeholder(tf.float32, [None, 1])
