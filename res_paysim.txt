@@ -1,0 +1,170 @@
+2017-06-05 14:51:27.217417: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:27.217441: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:27.217445: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:27.217447: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:27.217450: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:27.314076: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-06-05 14:51:27.314306: I tensorflow/core/common_runtime/gpu/gpu_device.cc:887] Found device 0 with properties: 
+name: GeForce GTX 980
+major: 5 minor: 2 memoryClockRate (GHz) 1.266
+pciBusID 0000:01:00.0
+Total memory: 3.94GiB
+Free memory: 3.56GiB
+2017-06-05 14:51:27.314319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:908] DMA: 0 
+2017-06-05 14:51:27.314323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:918] 0:   Y 
+2017-06-05 14:51:27.314333: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 980, pci bus id: 0000:01:00.0)
+2017-06-05 14:51:27.327561: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:200] Initialize GrpcChannelCache for job model_selection -> {0 -> localhost:27856, 1 -> node05:27856, 2 -> node06:27856}
+2017-06-05 14:51:27.328455: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:240] Started server with target: grpc://localhost:27856
+2017-06-05 14:51:27.367275: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:27.367301: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:27.367305: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:27.367308: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:27.367310: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:27.461867: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-06-05 14:51:27.462069: I tensorflow/core/common_runtime/gpu/gpu_device.cc:887] Found device 0 with properties: 
+name: GeForce GTX 980
+major: 5 minor: 2 memoryClockRate (GHz) 1.266
+pciBusID 0000:01:00.0
+Total memory: 3.94GiB
+Free memory: 3.80GiB
+2017-06-05 14:51:27.462081: I tensorflow/core/common_runtime/gpu/gpu_device.cc:908] DMA: 0 
+2017-06-05 14:51:27.462084: I tensorflow/core/common_runtime/gpu/gpu_device.cc:918] 0:   Y 
+2017-06-05 14:51:27.462091: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 980, pci bus id: 0000:01:00.0)
+2017-06-05 14:51:27.473065: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:200] Initialize GrpcChannelCache for job model_selection -> {0 -> node04:27856, 1 -> localhost:27856, 2 -> node06:27856}
+2017-06-05 14:51:27.473982: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:240] Started server with target: grpc://localhost:27856
+2017-06-05 14:51:33.111303: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:33.111328: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:33.111332: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:33.111334: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:33.111336: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-05 14:51:33.202177: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-06-05 14:51:33.202378: I tensorflow/core/common_runtime/gpu/gpu_device.cc:887] Found device 0 with properties: 
+name: GeForce GTX 980
+major: 5 minor: 2 memoryClockRate (GHz) 1.266
+pciBusID 0000:01:00.0
+Total memory: 3.94GiB
+Free memory: 3.80GiB
+2017-06-05 14:51:33.202389: I tensorflow/core/common_runtime/gpu/gpu_device.cc:908] DMA: 0 
+2017-06-05 14:51:33.202392: I tensorflow/core/common_runtime/gpu/gpu_device.cc:918] 0:   Y 
+2017-06-05 14:51:33.202399: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 980, pci bus id: 0000:01:00.0)
+2017-06-05 14:51:33.213631: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:200] Initialize GrpcChannelCache for job model_selection -> {0 -> node04:27856, 1 -> node05:27856, 2 -> localhost:27856}
+2017-06-05 14:51:33.214565: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:240] Started server with target: grpc://localhost:27856
+2017-06-05 14:51:33.759253: I tensorflow/core/distributed_runtime/master_session.cc:1012] Start master session 32378f963252c570 with config: 
+
+2017-06-05 14:51:37.984904: I tensorflow/core/distributed_runtime/master_session.cc:1012] Start master session 8994384e67b17dd0 with config: 
+
+2017-06-05 14:51:38.718650: I tensorflow/core/distributed_runtime/master_session.cc:1012] Start master session 646d0baf85c11a38 with config: 
+
+2017-06-05 14:51:39.616241: I tensorflow/core/distributed_runtime/master_session.cc:1012] Start master session fb095b1b74621508 with config: 
+
+2017-06-05 14:51:43.621840: I tensorflow/core/distributed_runtime/master_session.cc:1012] Start master session 98973c815f32c663 with config: 
+
+2017-06-05 14:51:44.351418: I tensorflow/core/distributed_runtime/master_session.cc:1012] Start master session 220251e1caac950c with config: 
+
+2017-06-05 14:51:45.244947: I tensorflow/core/distributed_runtime/master_session.cc:1012] Start master session 0cbef8739e47a63d with config: 
+
+2017-06-05 14:51:49.239469: I tensorflow/core/distributed_runtime/master_session.cc:1012] Start master session 05cfa4dd45dac235 with config: 
+
+2017-06-05 14:51:49.985414: I tensorflow/core/distributed_runtime/master_session.cc:1012] Start master session dbe75cb1bac367f1 with config: 
+
+2017-06-05 14:52:06.347693: I tensorflow/core/distributed_runtime/master_session.cc:1012] Start master session 3726875701736479 with config: 
+
+{0: [{'poly_degree': 2, 'lambda': 0.0}, {'poly_degree': 5, 'lambda': 0.0}, {'poly_degree': 4, 'lambda': 0.01}, {'poly_degree': 3, 'lambda': 0.1}, {'poly_degree': 2, 'lambda': 1.0}, {'poly_degree': 5, 'lambda': 1.0}, {'poly_degree': 4, 'lambda': 10.0}, {'poly_degree': 3, 'lambda': 100.0}, {'poly_degree': 2, 'lambda': 1000.0}, {'poly_degree': 5, 'lambda': 1000.0}], 1: [{'poly_degree': 3, 'lambda': 0.0}, {'poly_degree': 2, 'lambda': 0.01}, {'poly_degree': 5, 'lambda': 0.01}, {'poly_degree': 4, 'lambda': 0.1}, {'poly_degree': 3, 'lambda': 1.0}, {'poly_degree': 2, 'lambda': 10.0}, {'poly_degree': 5, 'lambda': 10.0}, {'poly_degree': 4, 'lambda': 100.0}, {'poly_degree': 3, 'lambda': 1000.0}], 2: [{'poly_degree': 4, 'lambda': 0.0}, {'poly_degree': 3, 'lambda': 0.01}, {'poly_degree': 2, 'lambda': 0.1}, {'poly_degree': 5, 'lambda': 0.1}, {'poly_degree': 4, 'lambda': 1.0}, {'poly_degree': 3, 'lambda': 10.0}, {'poly_degree': 2, 'lambda': 100.0}, {'poly_degree': 5, 'lambda': 100.0}, {'poly_degree': 4, 'lambda': 1000.0}]}
+--> 1 (10802491, 83)
+n-> 83
+trainX n-> 83
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py", line 1039, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py", line 1021, in _run_fn
+    status, run_metadata)
+  File "/usr/lib/python3.5/contextlib.py", line 66, in __exit__
+    next(self.gen)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/errors_impl.py", line 466, in raise_exception_on_not_ok_status
+    pywrap_tensorflow.TF_GetCode(status))
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [27,1] rhs shape= [83,1]
+	 [[Node: Variable/Adam_1/Assign = Assign[T=DT_FLOAT, _class=["loc:@Variable"], use_locking=true, validate_shape=true, _device="/job:model_selection/replica:0/task:0/gpu:0"](Variable/Adam_1, Variable/Adam_1/Initializer/Const)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 26, in <module>
+    main()
+  File "main.py", line 21, in main
+    grid = grid_search(BinaryLogisticRegression, X_train, y_train, param_grid)
+  File "/homeshare/sebasvega95/Repositories/paysim-tf/lib/model_selection.py", line 70, in grid_search
+    _, test_scores = cross_validation(estimator, X_cv, y_cv, n_splits=n_splits, server=server.target)
+  File "/homeshare/sebasvega95/Repositories/paysim-tf/lib/model_selection.py", line 20, in cross_validation
+    clf.fit(X_train, y_train)
+  File "/homeshare/sebasvega95/Repositories/paysim-tf/lib/estimator.py", line 36, in fit
+    sess.run(tf.global_variables_initializer())
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py", line 778, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py", line 982, in _run
+    feed_dict_string, options, run_metadata)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py", line 1032, in _do_run
+    target_list, options, run_metadata)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py", line 1052, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [27,1] rhs shape= [83,1]
+	 [[Node: Variable/Adam_1/Assign = Assign[T=DT_FLOAT, _class=["loc:@Variable"], use_locking=true, validate_shape=true, _device="/job:model_selection/replica:0/task:0/gpu:0"](Variable/Adam_1, Variable/Adam_1/Initializer/Const)]]
+
+Caused by op 'Variable/Adam_1/Assign', defined at:
+  File "main.py", line 26, in <module>
+    main()
+  File "main.py", line 21, in main
+    grid = grid_search(BinaryLogisticRegression, X_train, y_train, param_grid)
+  File "/homeshare/sebasvega95/Repositories/paysim-tf/lib/model_selection.py", line 70, in grid_search
+    _, test_scores = cross_validation(estimator, X_cv, y_cv, n_splits=n_splits, server=server.target)
+  File "/homeshare/sebasvega95/Repositories/paysim-tf/lib/model_selection.py", line 20, in cross_validation
+    clf.fit(X_train, y_train)
+  File "/homeshare/sebasvega95/Repositories/paysim-tf/lib/estimator.py", line 32, in fit
+    optimizer = tf.train.AdamOptimizer(learning_rate).minimize(total_cost)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/training/optimizer.py", line 325, in minimize
+    name=name)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/training/optimizer.py", line 446, in apply_gradients
+    self._create_slots([_get_variable_for(v) for v in var_list])
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/training/adam.py", line 123, in _create_slots
+    self._zeros_slot(v, "v", self._name)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/training/optimizer.py", line 766, in _zeros_slot
+    named_slots[_var_key(var)] = slot_creator.create_zeros_slot(var, op_name)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/training/slot_creator.py", line 174, in create_zeros_slot
+    colocate_with_primary=colocate_with_primary)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/training/slot_creator.py", line 146, in create_slot_with_initializer
+    dtype)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/training/slot_creator.py", line 66, in _create_slot_var
+    validate_shape=validate_shape)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/variable_scope.py", line 1049, in get_variable
+    use_resource=use_resource, custom_getter=custom_getter)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/variable_scope.py", line 948, in get_variable
+    use_resource=use_resource, custom_getter=custom_getter)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/variable_scope.py", line 356, in get_variable
+    validate_shape=validate_shape, use_resource=use_resource)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/variable_scope.py", line 341, in _true_getter
+    use_resource=use_resource)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/variable_scope.py", line 714, in _get_single_variable
+    validate_shape=validate_shape)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/variables.py", line 197, in __init__
+    expected_shape=expected_shape)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/variables.py", line 306, in _init_from_args
+    validate_shape=validate_shape).op
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/state_ops.py", line 270, in assign
+    validate_shape=validate_shape)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/gen_state_ops.py", line 47, in assign
+    use_locking=use_locking, name=name)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/op_def_library.py", line 768, in apply_op
+    op_def=op_def)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/ops.py", line 2336, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "/usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/ops.py", line 1228, in __init__
+    self._traceback = _extract_stack()
+
+InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match. lhs shape= [27,1] rhs shape= [83,1]
+	 [[Node: Variable/Adam_1/Assign = Assign[T=DT_FLOAT, _class=["loc:@Variable"], use_locking=true, validate_shape=true, _device="/job:model_selection/replica:0/task:0/gpu:0"](Variable/Adam_1, Variable/Adam_1/Initializer/Const)]]
+
+srun: error: node05: task 1: Exited with exit code 1
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: *** JOB 3881 ON node04 CANCELLED AT 2017-06-05T14:52:33 ***
+srun: forcing job termination
+slurmstepd: *** STEP 3881.0 ON node04 CANCELLED AT 2017-06-05T14:52:33 ***
